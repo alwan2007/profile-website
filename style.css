@@ -1,0 +1,124 @@
+#judul {
+    color: #2c3e50;
+}
+
+.deskripsi {
+    font-size: 16px;
+    max-width: 600px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.skill-list {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #27ae60;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1e8449;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 14px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.info {
+  max-width: 400px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+.dark .btn {
+  background-color: #2ecc71;
+}
+.dark .skill-list {
+  background-color: #2b2b2b;
+}
+.dark footer {
+  color: #ccc;
+}
+.dark a {
+  color: #4da3ff;
+}
+ 
+nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    max-width: 250px;
+  }
+}
